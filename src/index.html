@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>NewsPortal</title>
+    </head>
+    <body>
+        <header>
+            <h1>News Portal</h1>
+        </header>
+        <main>
+            <div class="alphabet">
+                <ul class="alphabet__list">
+                    <li class="alphabet__letter">A</li>
+                    <li class="alphabet__letter">B</li>
+                    <li class="alphabet__letter">C</li>
+                    <li class="alphabet__letter">D</li>
+                    <li class="alphabet__letter">E</li>
+                    <li class="alphabet__letter">F</li>
+                    <li class="alphabet__letter">G</li>
+                    <li class="alphabet__letter">H</li>
+                    <li class="alphabet__letter">I</li>
+                    <li class="alphabet__letter">J</li>
+                    <li class="alphabet__letter">K</li>
+                    <li class="alphabet__letter">L</li>
+                    <li class="alphabet__letter">M</li>
+                    <li class="alphabet__letter">N</li>
+                    <li class="alphabet__letter">O</li>
+                    <li class="alphabet__letter">P</li>
+                    <li class="alphabet__letter">Q</li>
+                    <li class="alphabet__letter">R</li>
+                    <li class="alphabet__letter">S</li>
+                    <li class="alphabet__letter">T</li>
+                    <li class="alphabet__letter">U</li>
+                    <li class="alphabet__letter">V</li>
+                    <li class="alphabet__letter">W</li>
+                    <li class="alphabet__letter">X</li>
+                    <li class="alphabet__letter">Y</li>
+                    <li class="alphabet__letter">Z</li>
+                </ul>
+            </div>
+
+            <div class="topics">
+                <div class="sources buttons"></div>
+            </div>
+            
+            <div class="news"></div>
+        </main>
+        <footer>
+            <a class="link" href="https://github.com/DimaTeniuta"><div class="link__git-hub"></div></a>
+            
+            <p class="copyright">
+                Copyright <a href="https://newsapi.org">NewsAPI</a> 2022
+            </p>
+            <a href="https://rs.school/js/"><div class="logo"></div></a>
+        </footer>
+
+        <template id="sourceItemTemp">
+            <div class="source__item">
+                <span class="source__item-name"></span>
+            </div>
+        </template>
+
+        <template id="newsItemTemp">
+            <div class="news__item">
+                <div class="news__meta">
+                    <div class="news__meta-photo"></div>
+                    <ul class="news__meta-details">
+                        <li class="news__meta-author"></li>
+                        <li class="news__meta-date"></li>
+                    </ul>
+                </div>
+                <div class="news__description">
+                    <h2 class="news__description-title"></h2>
+                    <h3 class="news__description-source"></h3>
+                    <p class="news__description-content"></p>
+                    <p class="news__read-more">
+                        <a href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </template>
+
+    </body>
+</html>

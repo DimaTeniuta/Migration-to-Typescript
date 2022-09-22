@@ -1,0 +1,76 @@
+.alphabet {
+    max-width: 1920px;
+    margin: 30px auto;
+}
+
+.alphabet__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.alphabet__letter {
+    font-size: 26px;
+    margin: 0 7px;
+    color: #30c5ff;
+    transition: 0.3s;
+}
+
+.alphabet__letter:hover {
+    cursor: pointer;
+    color: #69db7e;
+    transform: translateY(-0.15em);
+}
+
+.alphabet__letter.active {
+    color: #69db7e;
+    transform: translateY(-0.15em);
+    
+}
+
+.topics {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.sources {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    align-items: center;
+    font: 300 1em 'Fira Sans', sans-serif;
+}
+
+.source__item {
+    background: none;
+    border: 2px solid #30c5ff;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: #70d6ff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.source__item:hover,
+.source__item:focus {
+    border-color: #3fcc59;
+    color: #69db7e;
+    box-shadow: 0 0.5em 0.5em -0.4em #3fcc59;
+    transform: translateY(-0.25em);
+}
+
+.source__item-name {
+    font-weight: 400;
+    white-space: nowrap;
+}

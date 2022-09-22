@@ -1,0 +1,91 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes icons-live {
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+    10%,
+    30% {
+      transform: rotate(-10deg);
+    }
+    20%,
+    40% {
+      transform: rotate(10deg);
+    }
+  }
+
+.link:hover {
+    animation: icons-live 1s ease-in-out;
+}
+
+.link__git-hub {
+    width: 48px;
+    height: 48px;
+    background-image: url(./assets/images/Github\ -\ Negative.svg);
+    background-repeat: no-repeat;
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+footer .copyright a {
+    color: #444;
+}
+footer .copyright a:hover {
+    color: #555;
+}
+footer .copyright:before {
+    content: '©';
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    background-image: url(./assets/images/rs_school_js.svg);
+    background-repeat: no-repeat;
+}
+
+.logo:hover {
+    animation: icons-live 1s ease-in-out;
+}
+
+@media (max-width: 640px) {
+
+    header {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin: 30px 0 0 0;
+        height: auto;
+    }
+
+}
