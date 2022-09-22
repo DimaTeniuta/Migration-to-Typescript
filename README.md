@@ -1,2 +1,2 @@
-# dimateniuta-JSFE2022Q1
-Private repository for @dimateniuta
+
+https://dimateniuta.github.io/Migration-to-Typescript/
